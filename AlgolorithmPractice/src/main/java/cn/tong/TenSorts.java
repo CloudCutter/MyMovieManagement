@@ -1,6 +1,6 @@
 package cn.tong;
 
-public class TenSorts {
+class TenSorts {
     //希尔排序
     public void hillSort(int[] arr){
         int n = arr.length;
@@ -36,7 +36,7 @@ public class TenSorts {
         }
     }
     //冒泡未优化
-    public void bubbleSort1(int arr[]){
+    public void bubbleSort1(int[] arr){
         for(int i = 0; i < arr.length; ++i){
             for(int j = 0; j < arr.length - 1 -i; ++j){
                 if(arr[j] > arr[j+1]){
